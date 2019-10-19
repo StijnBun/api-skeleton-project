@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/api/1/process/stage",
+         "bodyPatterns": [ {
+      "equalToJson" : "{\"name\":\"value\"}"
+    } ]
+        },
+    "response": {
+    	"headers":{	"Content-Type": "application/json"}, 
+        "status": 200,
+        "bodyFileName": "testresponse.json"
+    }
+}
